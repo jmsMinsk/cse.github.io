@@ -1,0 +1,205 @@
+/*
+background
+*/
+
+body {	
+	margin: 0;	
+	background: url(./images/road.jpg) no-repeat;
+	background-size: 100%;
+	font: 100% Helvetica;
+	font-size: 90%;
+}
+
+/* 
+blocks & everything for them
+*/
+
+.leftUpConteyner {
+	position: absolute;
+	top: 2%;
+	width: 32%;
+	height: 40%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 10%;
+	opacity: 0.6;
+	overflow: auto;
+}
+
+.rightUpConteyner {
+	position: absolute;
+	top: 2%;
+	width: 32%;
+	height: 40%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 58%;
+	opacity: 0.6;
+	overflow: auto;	
+}
+
+.leftDownConteyner {
+	position: absolute;
+	top: 50%;
+	width: 32%;
+	height: 40%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 10%;
+	opacity: 0.6;
+	overflow: auto;
+}
+
+.rightDownConteyner {
+	position: absolute;
+	top: 50%;
+	width: 32%;
+	height: 40%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 58%;
+	opacity: 0.6;
+	overflow: auto;	
+}
+
+.cap {
+	text-align: center;
+	font-size: 150%;	
+}
+
+.main {
+	padding-left: 1%;
+	font-size: 100%;
+}
+
+.liStyle {
+	padding-bottom: 1%;
+	padding-right: 1%;
+}
+
+.styleCase {
+	text-align: right;
+	padding-right: 1%;
+	padding-bottom: 0.1%;
+}
+
+.styleCase a:link {
+}
+
+.styleCase a:hover {
+	color: #200772;
+	font-style: italic;
+	font-size: 110%;
+}
+
+/*
+blocks with another information
+*/
+
+#leftUpAnother {
+	display: none;
+	position: absolute;
+	top: 2%;
+	width: 80%;
+	height: 88%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 10%;
+	opacity: 1;
+	overflow: auto;
+	padding-left: 1%;
+}
+
+#tablePricies {
+	margin-left: 2%;
+}
+
+.tableCap {
+	font-weight: bold;
+	text-align: center;
+	padding: 1.5%;
+	border: 2px groove;
+}
+
+.tableElem {
+	text-align: center;
+	padding: 1.2%;
+	border: 2px groove;
+}
+
+.pMargin {
+	text-indent: 2%;
+	margin-left: 1%;
+}
+
+.ulStyle {
+	margin-right: 1%;
+}
+
+#ssylkaLine {
+	border: none;
+    background-color: gray;
+    color: gray; /* Цвет линии для IE6-7 */
+    height: 1px;
+    width: 20%;
+    margin-left: 1%;
+}
+
+#ssylkaText {
+	font-size: 80%;
+	margin-left: 1%;
+}
+
+#rightUpAnother {
+	display: none;
+	position: absolute;
+	top: 2%;
+	width: 80%;
+	height: 88%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 10%;
+	opacity: 1;
+	overflow: auto;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+#leftDownAnother {
+	display: none;
+	position: absolute;
+	top: 2%;
+	width: 80%;
+	height: 88%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 10%;
+	opacity: 1;
+	overflow: auto;
+	padding-left: 1%;
+}
+
+#rightDownAnother {
+	display: none;
+	position: absolute;
+	top: 2%;
+	width: 80%;
+	height: 88%;
+	background-color: #63DB93;
+	margin-top: 2%;
+	margin-left: 10%;
+	opacity: 1;
+	overflow: auto;
+	padding-left: 1%;
+}
+
+#svidIp {
+	float: right;
+	padding: 1%;	
+}
+
+.homePagePicture {
+	top: 0;
+	left: 0;
+	position: fixed;
+}
